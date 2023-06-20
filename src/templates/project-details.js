@@ -1,8 +1,7 @@
 import React from "react"
-import Img from "gatsby-image"
 import { GatsbyImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
-import styles from '../styles/project-details.module.css'
+import * as styles from '../styles/project-details.module.css'
 
 const ProjectDetails = () => {
     return (
