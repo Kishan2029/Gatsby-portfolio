@@ -6,10 +6,20 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `notes`,
+        // Path to the directory
+        path: `${__dirname}/src/notes/`,
+      },
+    }
+  ],
   siteMetadata: {
     title: 'Kishan Prajapati',
     description: 'web dev portfolio',
-    copyright: 'This website is copyright 2021 Kishan Prajapati'
+    copyright: 'This website is copyright 2023 Kishan Prajapati'
   },
 }
