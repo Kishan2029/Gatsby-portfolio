@@ -26,13 +26,14 @@ const Projects = ({ data }) => {
     );
 }
 export const query = graphql`
-  query {
-    allMarkdownRemark {
+query {
+    allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
       nodes {
         frontmatter {
           title
           stack
           slug
+          date
         }
         id
       }
