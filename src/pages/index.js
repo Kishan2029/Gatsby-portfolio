@@ -5,7 +5,6 @@ import { header, btn } from '../styles/home.module.css'
 
 
 export default function Home({ data }) {
-  console.log(data);
   return (
     <Layout>
       <section className={header}>
