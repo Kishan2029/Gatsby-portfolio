@@ -24,6 +24,7 @@ module.exports = {
   siteMetadata: {
     title: 'Kishan Prajapati',
     description: 'web dev portfolio',
-    copyright: 'This website is copyright 2023 Kishan Prajapati'
+    copyright: 'This website is copyright 2023 Kishan Prajapati',
+    contact: 'kishanprajapati2029@gmail.com'
   },
 }
