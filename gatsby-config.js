@@ -11,10 +11,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         // The unique name for each instance
-        name: `notes`,
+        name: `projects`,
         // Path to the directory
-        path: `${__dirname}/src/notes/`,
+        path: `${__dirname}/src/projects/`,
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {},
     }
   ],
   siteMetadata: {
