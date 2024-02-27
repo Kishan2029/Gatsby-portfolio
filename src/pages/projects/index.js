@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby'
 import { GatsbyImage } from "gatsby-plugin-image"
 
 const Projects = ({ data }) => {
-    console.log("data", data);
+
     const projects = data.projects.nodes
     const contact = data.contact.siteMetadata.contact
     return (
